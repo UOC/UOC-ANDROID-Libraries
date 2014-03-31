@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uoc.esquelet.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.uoc.esquelet.app.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="oauthresponse"
+                    android:scheme="uoc" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.CallChooser"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.GetUserActivity"
+            android:label="@string/title_activity_getuser" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.GetMailMessagesActivity"
+            android:label="@string/title_activity_getmailmessage" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.PostCalendarEventActivity"
+            android:label="@string/title_activity_newevent" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.GetEventsActivity"
+            android:label="@string/title_activity_calendarevents" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.GetClassroomListActivity"
+            android:label="@string/title_activity_getclassrooml" >
+        </activity>
+        <activity
+            android:name="com.uoc.esquelet.app.GetResources"
+            android:label="@string/title_activity_classmresources" >
+        </activity>
+    </application>
+
+</manifest>
