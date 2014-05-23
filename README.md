@@ -23,7 +23,7 @@ If you want to run the example code, just download the project "Esquelet" from t
 with Android Studio and run it.
 
 If you want to use our library, the fastest way to include it in your project, at least with Android Studio, 
-is to download "OpenAPILibrary" from this repository, create a new Android library module with the same name
+is to download "openapi" from this repository, create a new Android library module with the same name
 in your desired project and then replace the new module folder with the one from this repository. It's important
 that the main activity of your project extends "LoginActivity" and to have implemented the call:
 
