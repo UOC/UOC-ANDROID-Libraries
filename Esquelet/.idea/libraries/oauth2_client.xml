@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="oauth2-client">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/OpenAPILibrary/libs/oauth2-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/Esquelet/openapi/unspecified/libs/oauth2-client.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

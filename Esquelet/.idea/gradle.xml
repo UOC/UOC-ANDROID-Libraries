@@ -7,9 +7,9 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\Manuel\workspace\work\Esquelet" />
-            <option value="C:\Users\Manuel\workspace\work\Esquelet\OpenAPILibrary" />
-            <option value="C:\Users\Manuel\workspace\work\Esquelet\app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/openapi" />
           </set>
         </option>
       </GradleProjectSettings>

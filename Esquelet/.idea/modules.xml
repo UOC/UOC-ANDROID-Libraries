@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Esquelet.iml" filepath="$PROJECT_DIR$/Esquelet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OpenAPILibrary/OpenAPILibrary.iml" filepath="$PROJECT_DIR$/OpenAPILibrary/OpenAPILibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openapi/openapi.iml" filepath="$PROJECT_DIR$/openapi/openapi.iml" />
     </modules>
   </component>
 </project>

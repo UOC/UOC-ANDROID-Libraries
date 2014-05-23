@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="slf4j-api-1.6.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/OpenAPILibrary/libs/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/Esquelet/openapi/unspecified/libs/slf4j-api-1.6.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
