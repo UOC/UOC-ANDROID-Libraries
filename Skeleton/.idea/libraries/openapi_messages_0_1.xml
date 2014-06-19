@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="openapi-messages-0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/openapi-messages-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

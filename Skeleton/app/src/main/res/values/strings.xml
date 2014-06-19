@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Esquelet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_userget">User Get</string>
+    <string name="button_mmessagesget">Mail Messages Get</string>
+    <string name="button_calendarpost">Calendar Post</string>
+    <string name="button_mobileresources">Mobile Resources Get</string>
+
+    <string name="tvTId">ID:</string>
+    <string name="tvTUsername">Username:</string>
+    <string name="tvTName">Name:</string>
+    <string name="tvTNumber">Number:</string>
+    <string name="tvTFull">Full Name:</string>
+    <string name="tvTPhoto">Photo URL:</string>
+    <string name="tvTLang">Language:</string>
+    <string name="tvTSession">Session ID (should be empty):</string>
+    <string name="tvEmail">Email:</string>
+
+    <string name="etUrle">URL</string>
+    <string name="etSummary">Summary</string>
+    <string name="tvstart">Event start</string>
+    <string name="bstart">Select date</string>
+    <string name="bhstart">Time</string>
+    <string name="tvend">Event end</string>
+    <string name="bend">Select date</string>
+    <string name="bhend">Time</string>
+    <string name="besend">New Event</string>
+
+    <string name="btnNewEvent">New Event</string>
+
+    <string name="title_activity_main">EsqueletAPI</string>
+    <string name="title_activity_getuser">User Data</string>
+    <string name="title_activity_getmailmessage">Mail Folder Messages</string>
+    <string name="title_activity_calendarevents">Calendar Events</string>
+    <string name="title_activity_newevent">Create New Event</string>
+    <string name="title_activity_getclassrooml">Classroom List</string>
+    <string name="title_activity_classmresources">Classroom Mobile Resources</string>
+	
+
+	<string name="menu_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="button_login_text">Login</string>
+    <string name="button_delete_text">Delete data</string>
+    <string name="description_logo">UOC logo</string>
+
+</resources>
