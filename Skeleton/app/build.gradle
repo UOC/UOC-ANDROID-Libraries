@@ -23,11 +23,18 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    compile.exclude module: 'stax'
+    compile.exclude module: 'stax-api'
+    compile.exclude module: 'xpp3'
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     // You must install or update the Support Repository through the SDK manager to use this dependency.
     // You must install or update the Support Repository through the SDK manager to use this dependency.
     compile 'com.android.support:appcompat-v7:19.+'
+    compile ('org.simpleframework:simple-xml:2.7.+')
     compile group: 'com.google.code.gson', name: 'gson', version: '2.2.2'
     compile group: 'org.codehaus.jettison', name: 'jettison', version: '1.2'
     compile group: 'net.smartam.leeloo', name: 'oauth2-client', version: '0.1'

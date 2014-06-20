@@ -71,9 +71,9 @@
     <orderEntry type="library" exported="" name="jettison-1.2" level="project" />
     <orderEntry type="library" exported="" name="oauth2-common-0.1" level="project" />
     <orderEntry type="library" exported="" name="openapi-messages-0.1" level="project" />
+    <orderEntry type="library" exported="" name="simple-xml-2.7.1" level="project" />
     <orderEntry type="library" exported="" name="openapi-core-0.1" level="project" />
     <orderEntry type="library" exported="" name="slf4j-api-1.6.1" level="project" />
-    <orderEntry type="library" exported="" name="stax-api-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="openapi-classroom-0.1" level="project" />
   </component>
 </module>
