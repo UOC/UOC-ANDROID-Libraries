@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+  
+	<RelativeLayout
+	    android:id="@+id/etIde"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    tools:context=".NewEventActivity" >
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:fitsSystemWindows="false"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+	
+	        <requestFocus />
+	
+	        <EditText
+	            android:id="@+id/etUrle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:hint="@string/etUrle" />
+	
+	        <EditText
+	            android:id="@+id/etSummary"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:hint="@string/etSummary"
+	            android:inputType="textMultiLine"
+	            android:lines="5" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical" >
+	
+	            <TextView
+	                android:id="@+id/tvstart"
+	                android:layout_width="80dp"
+	                android:layout_height="wrap_content"
+	                android:text="@string/tvstart" />
+	
+	            <Button
+	                android:id="@+id/bstart"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bstart" />
+	
+	            <Button
+	                android:id="@+id/bhstart"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bhstart" />
+	
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical" >
+	
+	            <TextView
+	                android:id="@+id/tvend"
+	                android:layout_width="80dp"
+	                android:layout_height="wrap_content"
+	                android:text="@string/tvend" />
+	
+	            <Button
+	                android:id="@+id/bend"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bend" />
+	
+	            <Button
+	                android:id="@+id/bhend"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bhend" />
+	
+	        </LinearLayout>
+	
+	        <Button
+	            android:id="@+id/besend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:text="@string/besend" />
+	
+	    </LinearLayout>
+	
+	</RelativeLayout>
+</ScrollView>

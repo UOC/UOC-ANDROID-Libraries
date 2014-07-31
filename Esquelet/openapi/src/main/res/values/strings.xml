@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UOCAPILib</string>
+	<string name="menu_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="button_login_text">Login</string>
+    <string name="button_delete_text">Delete data</string>
+    <string name="description_logo">UOC logo</string>
+    <string name="label">UOC</string>
+</resources>

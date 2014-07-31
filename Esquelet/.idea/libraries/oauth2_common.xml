@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="oauth2-common">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/openapi/libs/oauth2-common.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
