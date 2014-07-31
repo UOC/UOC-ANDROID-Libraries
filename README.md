@@ -2,35 +2,42 @@ UOC-ANDROID-Libraries
 =====================
 
 * [Introduction](#introduction)
-* [How To Use](#how-to-use)
+* [Description](#description)
+* [How To Install](#how-to-install)
 * [More Information](#more-information)
 
 ## Introduction
 
 This Android library contains the login functions for UOC Campus and the calls to the OpenAPI.
 
-The library also contains 4 examples explaining how to use some of the functions. Those functions are: 
+All code on this repository has been made with android studio.
+
+## Description
+
+Esquelet contains all the source code of the library plus a login module for android and some examples of how to use the library.
+
+Skeleton contains the same examples as Esquelet, an old login for android and has the library included as .jar files.
+
+The examples of Esquelet and Skeleton are representative of all the different kinds of elements that the api returns. The 4 examples explaining how to use some of the functions are: 
 
 * /user Get
 * /mail/messages Get
 * /calendar/events Post
 * /mobileresources Get
 
+On "openapi_jars" you will find the .jar files of the library divided by objects (boards, subjects, etc). Each .jar contains all functions that return the object or a list of that object.  All .jar files need "openapi-core-0.1.jar" to work. Core contains an abstract constant class, a login interface, the AuthObj class and a class needed to create different calls to the api.
 
-## How To Use
+## How To Install
 
-If you want to run the example code, just download the project "Esquelet" from this repository, open it 
-with Android Studio and run it.
+Both in Esquelet and in Skeleton you can see how to use the library only using .jar files (Skeleton) or using the source code directly (Esquelet).
 
-If you want to use our library, the fastest way to include it in your project, at least with Android Studio, 
-is to download "openapi" from this repository, create a new Android library module with the same name
-in your desired project and then replace the new module folder with the one from this repository. It's important
-that the main activity of your project extends "LoginActivity" and to have implemented the call:
+The only thing needed to use the library is to add the correct maven dependencies in your gradle files and the needed permissions in your manifest.
 
-"@Override
-    public Intent NextActivityIntent() {
-        return new Intent (this, first_activity_of_your_project.class);
-    }"
+* Dependency
+On the build.gradle of your proyect you need to add: 
+"classpath 'org.robolectric:robolectric-gradle-plugin:0.11.+'"
+
+## Dependency
 
 ## More Information
 
