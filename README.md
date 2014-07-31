@@ -14,7 +14,7 @@ All code on this repository has been made with android studio.
 
 ## Description
 
-Esquelet contains all the source code of the library plus a login module for android and some examples of how to use the library.
+Esquelet contains all the source code of the library plus a login module for android with account manager support and some examples of how to use the library.
 
 Skeleton contains the same examples as Esquelet, an old login for android and has the library included as .jar files.
 
@@ -33,10 +33,7 @@ Both in Esquelet and in Skeleton you can see how to use the library only using .
 
 The only thing needed to use the library is to add the correct maven dependencies in your gradle files and the needed permissions in your manifest.
 
-* Dependency
-
-On the build.gradle of your proyect you need to add: 
-"classpath 'org.robolectric:robolectric-gradle-plugin:0.11.+'"
+All the library dependencies can be seen [here][Dependencies] and all the permissions needed are written in this [manifest][Manifest].
 
 ## Dependency
 
@@ -45,3 +42,5 @@ On the build.gradle of your proyect you need to add:
 You can find more information in our [blog][OpenApi].
 
 [OpenApi]: http://open-api.uoc.edu/documentacio/uoc-public-api/
+[Dependencies]: https://github.com/UOC/UOC-ANDROID-Libraries/blob/master/Skeleton/app/build.gradle
+[Manifest]:https://github.com/UOC/UOC-ANDROID-Libraries/blob/master/Skeleton/app/src/main/AndroidManifest.xml
