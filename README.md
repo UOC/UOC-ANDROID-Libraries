@@ -34,6 +34,7 @@ Both in Esquelet and in Skeleton you can see how to use the library only using .
 The only thing needed to use the library is to add the correct maven dependencies in your gradle files and the needed permissions in your manifest.
 
 * Dependency
+
 On the build.gradle of your proyect you need to add: 
 "classpath 'org.robolectric:robolectric-gradle-plugin:0.11.+'"
 
