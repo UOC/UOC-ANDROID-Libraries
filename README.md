@@ -37,9 +37,10 @@ To work with the source code, download the [openapi module][Module] and add it t
 
 ## More Information
 
-You can find more information about the api and it's functions in our [blog][OpenApi].
+You can find more information about the api and it's functions in our [blog][OpenApi_functions].
 
-[OpenApi]: http://open-api.uoc.edu/documentacio/uoc-public-api/
+[OpenApi]:http://open-api.uoc.edu/
+[OpenApi_functions]: http://open-api.uoc.edu/documentacio/uoc-public-api/
 [Dependencies]: https://github.com/UOC/UOC-ANDROID-Libraries/blob/master/Skeleton/app/build.gradle
 [Manifest]:https://github.com/UOC/UOC-ANDROID-Libraries/blob/master/Skeleton/app/src/main/AndroidManifest.xml
 [Module]:https://github.com/UOC/UOC-ANDROID-Libraries/tree/master/Esquelet/openapi
