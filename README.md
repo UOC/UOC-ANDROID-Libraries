@@ -8,7 +8,7 @@ UOC-ANDROID-Libraries
 
 ## Introduction
 
-This Android library contains the login functions for UOC Campus and the calls to the OpenAPI.
+This Android library contains the login functions for UOC Campus and the calls to the [OpenAPI][OpenApi].
 
 All code on this repository has been made with android studio.
 
@@ -37,7 +37,7 @@ To work with the source code, download the [openapi module][Module] and add it t
 
 ## More Information
 
-You can find more information in our [blog][OpenApi].
+You can find more information about the api and it's functions in our [blog][OpenApi].
 
 [OpenApi]: http://open-api.uoc.edu/documentacio/uoc-public-api/
 [Dependencies]: https://github.com/UOC/UOC-ANDROID-Libraries/blob/master/Skeleton/app/build.gradle
