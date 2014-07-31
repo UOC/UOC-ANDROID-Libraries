@@ -35,8 +35,6 @@ The only thing needed to use the library is to add the correct maven dependencie
 
 All the library dependencies can be seen [here][Dependencies] and all the permissions needed are written in this [manifest][Manifest].
 
-## Dependency
-
 ## More Information
 
 You can find more information in our [blog][OpenApi].
